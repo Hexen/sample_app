@@ -15,7 +15,7 @@ def create
       redirect_to @user # Обработка успешного сохранения.
     else
       @title = "Sign up"
-      render 'new'
-    end
+         render 'new'
+          end
   end
 end
